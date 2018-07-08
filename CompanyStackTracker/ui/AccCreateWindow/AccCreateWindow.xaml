@@ -1,0 +1,25 @@
+﻿<Window x:Class="CompanyStackTracker.AccCreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompanyStackTracker"
+        mc:Ignorable="d"
+        Title="AccCreateWindow" Height="306.466" Width="437.069">
+    <Grid Margin="0,0,-6.6,-7.2">
+        <TextBox x:Name="CreateAccNameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CreateAccPassTextBox" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Acc Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Pass:" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="FinishButton" Content="Finish" HorizontalAlignment="Left" Margin="10,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="343,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="AddCompanyTextBox" HorizontalAlignment="Left" Height="23" Margin="10,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="CompanyListBox" HorizontalAlignment="Left" Height="165" Margin="260,41,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label x:Name="label2" Content="Company:" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AddCompanyButton" Content="Add" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="245"/>
+        <TextBox x:Name="ValueTextBox" HorizontalAlignment="Left" Height="23" Margin="135,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3" Content="Entry Value:" HorizontalAlignment="Left" Margin="135,128,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="label4" Content="Companies:" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="158"/>
+
+    </Grid>
+</Window>
